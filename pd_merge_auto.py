@@ -23,13 +23,13 @@ def find_pdfs(folder_path):
     return pdf_files
 
 # Variable to store the path to the folder containing PDFs
-folder_path = r"C:\Users\dominguezj\Documents\APV\Mainstay\vacancy\Jane-June"
+folder_path = r""
 
 # Finds all PDFs in the specified folder
 pdf_files = find_pdfs(folder_path)
 
 # Here is a variable holding the location of where we will save the output file
-output_file = r"C:\Users\dominguezj\Documents\APV\Mainstay\vacancy\Jane-June\APV_Mainstay_Vacnacy_2025.pdf"
+output_file = r""
 
 # we will now feed our list of PDFs and their respective locations into 
 # the function. We will also feed where to save the merged PDF.
